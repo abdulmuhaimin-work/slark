@@ -30,4 +30,7 @@ config :slark, Slark.Repo,
   hostname: "localhost",
   pool_size: 10
 
+config :guardian, Guardian,
+  secret_key: "JMqnKymNkE95K7JZpxLLjHH9OsHiy3DNA51d2Rcc/IFtpkdHkJ9PFJM5h1GIiGF6"
+
 import_config "dev.secret.exs"

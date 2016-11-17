@@ -19,6 +19,9 @@ config :slark, Slark.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :guardian, Guardian,
+  secret_key: System.get_env("UZK39C7QS6p478GTb1DZq78YJfqc1VAkNGRinFT3gXhqs1JEYVdH5z8IrOYbgdz4")
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
